@@ -12,10 +12,10 @@ The goal of this hub is to provide actionable, easy-to-implement code fixes for 
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **SQL Injection** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
 | **XSS (Cross-Site Scripting)** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
-| **Security Headers** | ✅ | ✅ | ✅ | 🛠 | 🛠 | ✅ |
-| **CSRF Protection** | ✅ | ✅ | 🛠 | 🛠 | 🛠 | - |
-| **Path Traversal** | ✅ | 🛠 | ✅ | 🛠 | 🛠 | ✅ |
-| **Command Injection** | 🛠 | ✅ | 🛠 | 🛠 | 🛠 | - |
+| **Security Headers** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **CSRF Protection** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| **Path Traversal** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Command Injection** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
 | **Server Hardening** | - | - | - | - | - | ✅ |
 
 *Legend: ✅ Complete | 🛠 In Progress | - Not Applicable*
@@ -29,28 +29,40 @@ Explore the remediation guides by language:
 - [Cross-Site Scripting (XSS)](./PHP/xss.md)
 - [Cross-Site Request Forgery (CSRF)](./PHP/csrf.md)
 - [Path Traversal](./PHP/path-traversal.md)
+- [Command Injection](./PHP/command-injection.md)
 - [Security Headers](./PHP/security-headers.md)
 
 ### 🟨 [JavaScript](./JavaScript/)
 - [SQL Injection](./JavaScript/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./JavaScript/xss.md)
 - [Cross-Site Request Forgery (CSRF)](./JavaScript/csrf.md)
+- [Path Traversal](./JavaScript/path-traversal.md)
 - [Command Injection](./JavaScript/command-injection.md)
 - [Security Headers](./JavaScript/security-headers.md)
 
 ### 🐍 [Python](./Python/)
 - [SQL Injection](./Python/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./Python/xss.md)
+- [CSRF Protection](./Python/csrf.md)
 - [Path Traversal](./Python/path-traversal.md)
+- [Command Injection](./Python/command-injection.md)
 - [Security Headers](./Python/security-headers.md)
 
 ### 🐹 [Go](./Go/)
 - [SQL Injection](./Go/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./Go/xss.md)
+- [Security Headers](./Go/security-headers.md)
+- [CSRF Protection](./Go/csrf.md)
+- [Path Traversal](./Go/path-traversal.md)
+- [Command Injection](./Go/command-injection.md)
 
 ### 💎 [Ruby](./Ruby/)
 - [SQL Injection](./Ruby/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./Ruby/xss.md)
+- [Security Headers](./Ruby/security-headers.md)
+- [CSRF Protection](./Ruby/csrf.md)
+- [Path Traversal](./Ruby/path-traversal.md)
+- [Command Injection](./Ruby/command-injection.md)
 
 ### ⚙️ [Nginx](./Nginx/)
 - [Security Headers](./Nginx/security-headers.md)
