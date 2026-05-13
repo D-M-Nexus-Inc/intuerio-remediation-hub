@@ -6,7 +6,21 @@ Welcome to the **Intuerio Remediation Hub**! This repository is a curated collec
 
 The goal of this hub is to provide actionable, easy-to-implement code fixes for common security flaws (OWASP Top 10) across multiple programming languages. Each snippet provides a "Before and After" comparison to help you understand the vulnerability and how to remediate it effectively.
 
-## Navigation
+## 🚀 Language Support Matrix
+
+| Vulnerability Type | PHP | JS | Python | Go | Ruby | Nginx/Apache |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **SQL Injection** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| **XSS (Cross-Site Scripting)** | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| **Security Headers** | ✅ | ✅ | ✅ | 🛠 | 🛠 | ✅ |
+| **CSRF Protection** | ✅ | ✅ | 🛠 | 🛠 | 🛠 | - |
+| **Path Traversal** | ✅ | 🛠 | ✅ | 🛠 | 🛠 | ✅ |
+| **Command Injection** | 🛠 | ✅ | 🛠 | 🛠 | 🛠 | - |
+| **Server Hardening** | - | - | - | - | - | ✅ |
+
+*Legend: ✅ Complete | 🛠 In Progress | - Not Applicable*
+
+## 📚 Navigation
 
 Explore the remediation guides by language:
 
@@ -29,6 +43,14 @@ Explore the remediation guides by language:
 - [Cross-Site Scripting (XSS)](./Python/xss.md)
 - [Path Traversal](./Python/path-traversal.md)
 - [Security Headers](./Python/security-headers.md)
+
+### 🐹 [Go](./Go/)
+- [SQL Injection](./Go/sql-injection.md)
+- [Cross-Site Scripting (XSS)](./Go/xss.md)
+
+### 💎 [Ruby](./Ruby/)
+- [SQL Injection](./Ruby/sql-injection.md)
+- [Cross-Site Scripting (XSS)](./Ruby/xss.md)
 
 ### ⚙️ [Nginx](./Nginx/)
 - [Security Headers](./Nginx/security-headers.md)
