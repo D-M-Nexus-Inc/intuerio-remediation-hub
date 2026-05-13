@@ -15,17 +15,20 @@ Explore the remediation guides by language:
 - [Cross-Site Scripting (XSS)](./PHP/xss.md)
 - [Cross-Site Request Forgery (CSRF)](./PHP/csrf.md)
 - [Path Traversal](./PHP/path-traversal.md)
+- [Security Headers](./PHP/security-headers.md)
 
 ### 🟨 [JavaScript](./JavaScript/)
 - [SQL Injection](./JavaScript/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./JavaScript/xss.md)
 - [Cross-Site Request Forgery (CSRF)](./JavaScript/csrf.md)
 - [Command Injection](./JavaScript/command-injection.md)
+- [Security Headers](./JavaScript/security-headers.md)
 
 ### 🐍 [Python](./Python/)
 - [SQL Injection](./Python/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./Python/xss.md)
 - [Path Traversal](./Python/path-traversal.md)
+- [Security Headers](./Python/security-headers.md)
 
 ---
 
