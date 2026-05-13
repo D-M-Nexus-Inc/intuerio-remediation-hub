@@ -30,6 +30,14 @@ Explore the remediation guides by language:
 - [Path Traversal](./Python/path-traversal.md)
 - [Security Headers](./Python/security-headers.md)
 
+### ⚙️ [Nginx](./Nginx/)
+- [Security Headers](./Nginx/security-headers.md)
+- [Server Hardening](./Nginx/server-hardening.md)
+
+### 🦅 [Apache](./Apache/)
+- [Security Headers](./Apache/security-headers.md)
+- [Server Hardening](./Apache/server-hardening.md)
+
 ---
 
 ## How to use this Hub
