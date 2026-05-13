@@ -1,1 +1,45 @@
-# intuerio-remediation-hub
+# Intuerio Remediation Hub
+
+Welcome to the **Intuerio Remediation Hub**! This repository is a curated collection of security code snippets and best practices designed to help developers fix vulnerabilities identified by the Intuerio scanner.
+
+## Purpose
+
+The goal of this hub is to provide actionable, easy-to-implement code fixes for common security flaws (OWASP Top 10) across multiple programming languages. Each snippet provides a "Before and After" comparison to help you understand the vulnerability and how to remediate it effectively.
+
+## Navigation
+
+Explore the remediation guides by language:
+
+### 🐘 [PHP](./PHP/)
+- [SQL Injection](./PHP/sql-injection.md)
+- [Cross-Site Scripting (XSS)](./PHP/xss.md)
+- [Cross-Site Request Forgery (CSRF)](./PHP/csrf.md)
+- [Path Traversal](./PHP/path-traversal.md)
+
+### 🟨 [JavaScript](./JavaScript/)
+- [SQL Injection](./JavaScript/sql-injection.md)
+- [Cross-Site Scripting (XSS)](./JavaScript/xss.md)
+- [Cross-Site Request Forgery (CSRF)](./JavaScript/csrf.md)
+- [Command Injection](./JavaScript/command-injection.md)
+
+### 🐍 [Python](./Python/)
+- [SQL Injection](./Python/sql-injection.md)
+- [Cross-Site Scripting (XSS)](./Python/xss.md)
+- [Path Traversal](./Python/path-traversal.md)
+
+---
+
+## How to use this Hub
+
+1. Find the vulnerability type reported by the Intuerio scanner.
+2. Navigate to the folder for your project's primary language.
+3. Locate the corresponding markdown file for the vulnerability.
+4. Review the **Vulnerable Code** example to confirm the pattern matches your code.
+5. Implement the **Secure Code** remediation.
+
+## Contribution
+
+If you have discovered a new vulnerability pattern or have a better remediation approach, feel free to contribute! Open a PR with your suggested changes.
+
+---
+© 2026 D-M Nexus Inc. Ltd.
